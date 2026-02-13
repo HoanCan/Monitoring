@@ -1,0 +1,54 @@
+{
+    "Server": {
+      "Name": "DC01",
+      "IPAddress": "192.168.10.10"
+    },
+    "Paths": {
+      "LogPath": "C:\\Monitoring\\Logs\\DC01-Health.log",
+      "DataDirectory": "C:\\Monitoring\\Data",
+      "BookmarkPath": "C:\\Monitoring\\Data\\event-bookmarks.json"
+    },
+    "Thresholds": {
+      "CPU": 80,
+      "Memory": 80,
+      "Disk": 90,
+      "DHCPUtilization": 90,
+      "DiskQueueWarning": 2
+    },
+    "Services": {
+      "NonRestartable": [ "NTDS", "ADWS", "KDC", "Netlogon" ],
+      "Critical": {
+        "DNS": "DNS Server",
+        "DHCPServer": "DHCP Server",
+        "NTDS": "Active Directory Domain Services",
+        "ADWS": "Active Directory Web Services",
+        "Netlogon": "Netlogon",
+        "KDC": "Kerberos Key Distribution Center",
+        "W32Time": "Windows Time",
+        "EventLog": "Windows Event Log"
+      }
+    },
+    "DHCP": {
+      "ScopeId": "192.168.10.0",
+      "ScopeRange": "192.168.10.100 - 192.168.10.150"
+    },
+    "Connectivity": {
+      "CheckEnabled": true,
+      "PingTargets": [ "8.8.8.8", "1.1.1.1" ],
+      "GatewayCheck": true
+    },
+    "AD": {
+      "RunDcDiag": true,
+      "DcDiagEveryCycles": 12
+    },
+    "Alerts": {
+      "Telegram": {
+        "Enabled": true,
+        "MinLevel": "WARNING",
+        "SendFor": [ "WARNING", "ERROR", "CRITICAL", "SUCCESS"],
+        "TokenFile": "C:\\Monitoring\\Secure\\telegram-bot-token.txt",
+        "ChatIdFile": "C:\\Monitoring\\Secure\\telegram-chatid.txt"
+      }
+    }
+  }
+  

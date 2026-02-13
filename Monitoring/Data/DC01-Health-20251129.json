@@ -1,0 +1,3937 @@
+﻿{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.95,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2112.1,
+                   "FreeMB":  1983.29,
+                   "PageFaultsPerSec":  440.37,
+                   "UsedPercent":  51.57,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:03:31",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0.03
+                        }
+}
+{
+    "DHCP":  {
+                 "Message":  "Failed to get server statistics from DHCP server DC01.",
+                 "Status":  "Error"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Stopped",
+                         "IsRunning":  false,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Stopped",
+                         "IsRunning":  false,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1998,
+                   "FreeMB":  2097.39,
+                   "PageFaultsPerSec":  39.32,
+                   "UsedPercent":  48.79,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:07:20",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  438.98,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0.34,
+                            "DiskTimePercent":  0.09
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.16,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2235.64,
+                   "FreeMB":  1859.75,
+                   "PageFaultsPerSec":  5.02,
+                   "UsedPercent":  54.59,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:13:01",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  24.99,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2238.57,
+                   "FreeMB":  1856.82,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  54.66,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:18:24",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.02,
+                            "AvgLatencyMs":  0.19,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  31.9,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2281.54,
+                   "FreeMB":  1813.86,
+                   "PageFaultsPerSec":  11.78,
+                   "UsedPercent":  55.71,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:24:00",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0.1
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Stopped",
+                         "IsRunning":  false,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  2.62,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1852.83,
+                   "FreeMB":  2242.57,
+                   "PageFaultsPerSec":  227.04,
+                   "UsedPercent":  45.24,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:28:06",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0.98,
+                            "DiskTimePercent":  1.25
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2230.05,
+                   "FreeMB":  1865.34,
+                   "PageFaultsPerSec":  19.79,
+                   "UsedPercent":  54.45,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:33:47",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0.15
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  47.75,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  19.69
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.12,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2077.27,
+                   "FreeMB":  2018.12,
+                   "PageFaultsPerSec":  9.17,
+                   "UsedPercent":  50.72,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:39:23",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.11
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  9.31,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2052.13,
+                   "FreeMB":  2043.27,
+                   "PageFaultsPerSec":  12436.69,
+                   "UsedPercent":  50.11,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:49:02",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  1745.04,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.01,
+                            "AvgLatencyMs":  1.98,
+                            "DiskTimePercent":  2.02
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2203.93,
+                   "FreeMB":  1891.47,
+                   "PageFaultsPerSec":  227.99,
+                   "UsedPercent":  53.81,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:50:28",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.01,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "Message":  "Failed to get server statistics from DHCP server DC01.",
+                 "Status":  "Error"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.11
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Stopped",
+                         "IsRunning":  false,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Stopped",
+                         "IsRunning":  false,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.85,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1862.85,
+                   "FreeMB":  2232.54,
+                   "PageFaultsPerSec":  22.94,
+                   "UsedPercent":  45.49,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:51:50",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  110.22,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0.26
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.33,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2061.6,
+                   "FreeMB":  2033.79,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  50.34,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:53:17",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2043.6,
+                   "FreeMB":  2051.79,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  49.9,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:54:47",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  2.12,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2017.83,
+                   "FreeMB":  2077.57,
+                   "PageFaultsPerSec":  1,
+                   "UsedPercent":  49.27,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:56:09",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0.21,
+                            "DiskTimePercent":  0.04
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  1.24,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2035.06,
+                   "FreeMB":  2060.33,
+                   "PageFaultsPerSec":  1590.05,
+                   "UsedPercent":  49.69,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:57:38",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0.37,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.91,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  2.76,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2018.9,
+                   "FreeMB":  2076.5,
+                   "PageFaultsPerSec":  114.37,
+                   "UsedPercent":  49.3,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:58:19",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  1.85
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2116.08,
+                   "FreeMB":  1979.32,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  51.67,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 15:59:37",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.01,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2107.75,
+                   "FreeMB":  1987.64,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  51.47,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:01:00",
+    "CPUQueue":  2,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "Message":  "Failed to get server statistics from DHCP server DC01.",
+                 "Status":  "Error"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Stopped",
+                         "IsRunning":  false,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  1.49,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2079.16,
+                   "FreeMB":  2016.23,
+                   "PageFaultsPerSec":  30.6,
+                   "UsedPercent":  50.77,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:02:30",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  26.8,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2158.45,
+                   "FreeMB":  1936.94,
+                   "PageFaultsPerSec":  3800.11,
+                   "UsedPercent":  52.7,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:03:59",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0.45,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  25.62,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2122.84,
+                   "FreeMB":  1972.56,
+                   "PageFaultsPerSec":  7279.73,
+                   "UsedPercent":  51.83,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:05:23",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  3.71,
+                            "DiskTimePercent":  0.05
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  26.04,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2087.98,
+                   "FreeMB":  2007.41,
+                   "PageFaultsPerSec":  13774.83,
+                   "UsedPercent":  50.98,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:06:47",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  104.95,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  31.04,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2076.8,
+                   "FreeMB":  2018.59,
+                   "PageFaultsPerSec":  17171.48,
+                   "UsedPercent":  50.71,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:08:17",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  109.43,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  5.3
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  26.95,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2110.82,
+                   "FreeMB":  1984.58,
+                   "PageFaultsPerSec":  8181.4,
+                   "UsedPercent":  51.54,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:09:48",
+    "CPUQueue":  5,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  22.86,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2183.47,
+                   "FreeMB":  1911.93,
+                   "PageFaultsPerSec":  1670.86,
+                   "UsedPercent":  53.32,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:11:12",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  100,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2173.15,
+                   "FreeMB":  1922.25,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  53.06,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:13:02",
+    "CPUQueue":  5,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.02,
+                            "AvgLatencyMs":  0.32,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  100,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2138.49,
+                   "FreeMB":  1956.91,
+                   "PageFaultsPerSec":  101.95,
+                   "UsedPercent":  52.22,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:15:19",
+    "CPUQueue":  5,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.02,
+                            "AvgLatencyMs":  3.54,
+                            "DiskTimePercent":  0.1
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  15.82,
+                   "UsedMB":  2052.25,
+                   "FreeMB":  2043.14,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  50.11,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:17:07",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.9,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.12
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  3.4,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  2038.01,
+                   "FreeMB":  2057.38,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  49.76,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:18:30",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0.06
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.94,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.05
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  29.72,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1872.23,
+                   "FreeMB":  2223.17,
+                   "PageFaultsPerSec":  106.57,
+                   "UsedPercent":  45.72,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:19:55",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0.41,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.94,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.05
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.27,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1844.84,
+                   "FreeMB":  2250.55,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  45.05,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:21:18",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.02,
+                            "AvgLatencyMs":  0.55,
+                            "DiskTimePercent":  38.42
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.94,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.07
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  30.91,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1955.01,
+                   "FreeMB":  2140.39,
+                   "PageFaultsPerSec":  161.2,
+                   "UsedPercent":  47.74,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:22:49",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.93,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.07
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1941.11,
+                   "FreeMB":  2154.28,
+                   "PageFaultsPerSec":  0.99,
+                   "UsedPercent":  47.4,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:24:27",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.93,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.07
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.13,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  8.01,
+                   "UsedMB":  1913.51,
+                   "FreeMB":  2181.89,
+                   "PageFaultsPerSec":  0,
+                   "UsedPercent":  46.72,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:25:51",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  110.99,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  1.72
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.89,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.15
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.93,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1967.97,
+                   "FreeMB":  2127.42,
+                   "PageFaultsPerSec":  1.96,
+                   "UsedPercent":  48.05,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:27:14",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.89,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.15
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  0.02,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1930.95,
+                   "FreeMB":  2164.44,
+                   "PageFaultsPerSec":  1,
+                   "UsedPercent":  47.15,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:28:38",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0,
+                            "AvgLatencyMs":  0,
+                            "DiskTimePercent":  0.08
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.8,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.29
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  9.29,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  1,
+                   "UsedMB":  2031.36,
+                   "FreeMB":  2064.03,
+                   "PageFaultsPerSec":  789.29,
+                   "UsedPercent":  49.6,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:30:02",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  0,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.05,
+                            "AvgLatencyMs":  0.74,
+                            "DiskTimePercent":  4.35
+                        }
+}
+{
+    "DHCP":  {
+                 "InUse":  2,
+                 "TotalAddresses":  51,
+                 "UtilizationPercent":  3.92,
+                 "ScopeRange":  "192.168.10.100 - 192.168.10.150",
+                 "ScopeId":  "192.168.10.0",
+                 "Free":  49,
+                 "Status":  "OK"
+             },
+    "Disks":  [
+                  {
+                      "FreeGB":  46.71,
+                      "Drive":  "C:",
+                      "TotalGB":  59.46,
+                      "UsedPercent":  21.44
+                  }
+              ],
+    "Services":  [
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "Netlogon",
+                         "DisplayName":  "Netlogon"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "KDC",
+                         "DisplayName":  "Kerberos Key Distribution Center"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "NTDS",
+                         "DisplayName":  "Active Directory Domain Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "EventLog",
+                         "DisplayName":  "Windows Event Log"
+                     },
+                     {
+                         "CanRestart":  false,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "ADWS",
+                         "DisplayName":  "Active Directory Web Services"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DHCPServer",
+                         "DisplayName":  "DHCP Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "DNS",
+                         "DisplayName":  "DNS Server"
+                     },
+                     {
+                         "CanRestart":  true,
+                         "Status":  "Running",
+                         "IsRunning":  true,
+                         "Name":  "W32Time",
+                         "DisplayName":  "Windows Time"
+                     }
+                 ],
+    "ServerName":  "DC01",
+    "CPU":  5.5,
+    "NetworkInfo":  {
+                        "InterfaceAlias":  "Ethernet0",
+                        "PrefixLength":  24,
+                        "IPAddress":  "192.168.10.10"
+                    },
+    "Memory":  {
+                   "PagesPerSec":  0,
+                   "UsedMB":  1995.21,
+                   "FreeMB":  2100.19,
+                   "PageFaultsPerSec":  4.02,
+                   "UsedPercent":  48.72,
+                   "TotalMB":  4095.39
+               },
+    "Timestamp":  "2025-11-29 16:31:32",
+    "CPUQueue":  0,
+    "Network":  {
+                    "BytesPerSec":  110.43,
+                    "MBPerSec":  0
+                },
+    "IPAddress":  "192.168.10.10",
+    "DiskPerformance":  {
+                            "AvgQueueLength":  0.02,
+                            "AvgLatencyMs":  2.59,
+                            "DiskTimePercent":  1.63
+                        }
+}

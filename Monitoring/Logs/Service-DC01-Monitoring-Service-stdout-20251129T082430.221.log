@@ -1,0 +1,64 @@
+[2025-11-29 15:07:20.085] [DC01] [SUCCESS] === DC01 Health Monitoring Service Started ===
+[2025-11-29 15:07:20.131] [DC01] [INFO] Server: DC01 (192.168.10.10)
+[2025-11-29 15:07:20.131] [DC01] [INFO] Monitoring Interval: 300 seconds
+[2025-11-29 15:07:20.147] [DC01] [INFO] Thresholds - CPU: 80%, Memory: 80%, Disk: 90%, DHCP: 90%
+[2025-11-29 15:07:20.147] [DC01] [INFO] Non-Restart Services: NTDS, ADWS, KDC, Netlogon
+[2025-11-29 15:07:20.162] [DC01] [INFO] --- Monitoring Cycle #1 ---
+[2025-11-29 15:07:35.425] [DC01] [INFO] CPU: 0% (Queue Length: 0)
+[2025-11-29 15:07:35.456] [DC01] [INFO] Memory: 48.79% used (Free: 2097.39MB, Page Faults: 39.32/sec)
+[2025-11-29 15:07:35.472] [DC01] [INFO] Disk performance: Queue=0, Latency=0.34ms, DiskTime=0.09%
+[2025-11-29 15:07:35.488] [DC01] [ERROR] SERVICE DOWN: DHCP Server [DHCPServer] - Status: Stopped
+[2025-11-29 15:07:35.644] [DC01] [ERROR] Failed to send Telegram alert: Exception calling "SecureStringToBSTR" with "1" argument(s): "Value cannot be null.
+Parameter name: s"
+[2025-11-29 15:07:35.659] [DC01] [INFO] Attempting to restart DHCPServer...
+WARNING: Waiting for service 'DHCP Server (DHCPServer)' to start...
+WARNING: Waiting for service 'DHCP Server (DHCPServer)' to start...
+[2025-11-29 15:07:40.175] [DC01] [SUCCESS] Successfully restarted DHCPServer
+[2025-11-29 15:07:40.175] [DC01] [ERROR] SERVICE DOWN: DNS Server [DNS] - Status: Stopped
+[2025-11-29 15:07:40.254] [DC01] [ERROR] Failed to send Telegram alert: Exception calling "SecureStringToBSTR" with "1" argument(s): "Value cannot be null.
+Parameter name: s"
+[2025-11-29 15:07:40.254] [DC01] [INFO] Attempting to restart DNS...
+[2025-11-29 15:07:40.581] [DC01] [SUCCESS] Successfully restarted DNS
+[2025-11-29 15:07:40.597] [DC01] [INFO] DHCP status: Error
+[2025-11-29 15:07:57.722] [DC01] [WARNING] AD Replication: No replication data
+[2025-11-29 15:07:57.754] [DC01] [ERROR] Failed to send Telegram alert: Exception calling "SecureStringToBSTR" with "1" argument(s): "Value cannot be null.
+Parameter name: s"
+[2025-11-29 15:08:01.121] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 15:08:01.523] [DC01] [SUCCESS] Status Summary - CPU: 0%, Memory: 48.79%, Services: 6/8 running, Network: 0 MB/s
+[2025-11-29 15:08:01.551] [DC01] [INFO] Waiting 300 seconds until next check...
+[2025-11-29 15:13:01.567] [DC01] [INFO] --- Monitoring Cycle #2 ---
+[2025-11-29 15:13:10.955] [DC01] [INFO] CPU: 0.16% (Queue Length: 0)
+[2025-11-29 15:13:10.955] [DC01] [INFO] Memory: 54.59% used (Free: 1859.75MB, Page Faults: 5.02/sec)
+[2025-11-29 15:13:10.971] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 15:13:10.971] [DC01] [INFO] All critical services are running.
+[2025-11-29 15:13:10.987] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 15:13:20.471] [DC01] [WARNING] AD Replication: No replication data
+[2025-11-29 15:13:20.487] [DC01] [ERROR] Failed to send Telegram alert: Exception calling "SecureStringToBSTR" with "1" argument(s): "Value cannot be null.
+Parameter name: s"
+[2025-11-29 15:13:23.737] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 15:13:24.034] [DC01] [SUCCESS] Status Summary - CPU: 0.16%, Memory: 54.59%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 15:13:24.049] [DC01] [INFO] Waiting 300 seconds until next check...
+[2025-11-29 15:18:24.082] [DC01] [INFO] --- Monitoring Cycle #3 ---
+[2025-11-29 15:18:33.642] [DC01] [INFO] CPU: 24.99% (Queue Length: 0)
+[2025-11-29 15:18:33.642] [DC01] [INFO] Memory: 54.66% used (Free: 1856.82MB, Page Faults: 0/sec)
+[2025-11-29 15:18:33.642] [DC01] [INFO] Disk performance: Queue=0.02, Latency=0.19ms, DiskTime=0%
+[2025-11-29 15:18:33.663] [DC01] [INFO] All critical services are running.
+[2025-11-29 15:18:33.663] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 15:18:57.237] [DC01] [WARNING] AD Replication: No replication data
+[2025-11-29 15:18:57.268] [DC01] [ERROR] Failed to send Telegram alert: Exception calling "SecureStringToBSTR" with "1" argument(s): "Value cannot be null.
+Parameter name: s"
+[2025-11-29 15:19:00.517] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 15:19:00.784] [DC01] [SUCCESS] Status Summary - CPU: 24.99%, Memory: 54.66%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 15:19:00.784] [DC01] [INFO] Waiting 300 seconds until next check...
+[2025-11-29 15:24:00.788] [DC01] [INFO] --- Monitoring Cycle #4 ---
+[2025-11-29 15:24:10.127] [DC01] [INFO] CPU: 31.9% (Queue Length: 0)
+[2025-11-29 15:24:10.127] [DC01] [INFO] Memory: 55.71% used (Free: 1813.86MB, Page Faults: 11.78/sec)
+[2025-11-29 15:24:10.127] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0.1%
+[2025-11-29 15:24:10.142] [DC01] [INFO] All critical services are running.
+[2025-11-29 15:24:10.142] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 15:24:26.644] [DC01] [WARNING] AD Replication: No replication data
+[2025-11-29 15:24:26.659] [DC01] [ERROR] Failed to send Telegram alert: Exception calling "SecureStringToBSTR" with "1" argument(s): "Value cannot be null.
+Parameter name: s"
+[2025-11-29 15:24:29.893] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 15:24:30.206] [DC01] [SUCCESS] Status Summary - CPU: 31.9%, Memory: 55.71%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 15:24:30.221] [DC01] [INFO] Waiting 300 seconds until next check...

@@ -1,0 +1,1 @@
+Processing -File ' C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1\ -IntervalSeconds 60' failed because the file does not have a '.ps1' extension. Specify a valid Windows PowerShell script file name, and then try again.

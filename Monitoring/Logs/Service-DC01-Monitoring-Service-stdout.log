@@ -1,0 +1,271 @@
+[2025-11-29 15:58:19.676] [DC01] [SUCCESS] === DC01 Health Monitoring Service Started ===
+[2025-11-29 15:58:19.707] [DC01] [INFO] Server: DC01 (192.168.10.10)
+[2025-11-29 15:58:19.723] [DC01] [INFO] Monitoring Interval: 60 seconds
+[2025-11-29 15:58:19.754] [DC01] [INFO] Thresholds - CPU: 80%, Memory: 80%, Disk: 90%, DHCP: 90%
+[2025-11-29 15:58:19.754] [DC01] [INFO] Non-Restart Services: NTDS, ADWS, KDC, Netlogon
+[2025-11-29 15:58:19.754] [DC01] [INFO] --- Monitoring Cycle #1 ---
+[2025-11-29 15:58:30.661] [DC01] [INFO] CPU: 2.76% (Queue Length: 0)
+[2025-11-29 15:58:30.691] [DC01] [INFO] Memory: 49.3% used (Free: 2076.5MB, Page Faults: 114.37/sec)
+[2025-11-29 15:58:30.691] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=1.85%
+[2025-11-29 15:58:30.707] [DC01] [INFO] All critical services are running.
+[2025-11-29 15:58:30.722] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 15:58:31.739] [DC01] [WARNING] AD Replication: No replication data
+
+[2025-11-29 15:58:36.878] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 15:58:37.191] [DC01] [SUCCESS] Status Summary - CPU: 2.76%, Memory: 49.3%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 15:58:37.225] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 15:59:37.287] [DC01] [INFO] --- Monitoring Cycle #2 ---
+[2025-11-29 15:59:46.443] [DC01] [INFO] CPU: 0% (Queue Length: 0)
+[2025-11-29 15:59:46.443] [DC01] [INFO] Memory: 51.67% used (Free: 1979.32MB, Page Faults: 0/sec)
+[2025-11-29 15:59:46.443] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 15:59:46.443] [DC01] [INFO] All critical services are running.
+[2025-11-29 15:59:46.458] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 15:59:55.818] [DC01] [WARNING] AD Replication: No replication data
+  ok result                                                                                                  
+  -- ------                                                                                                  
+True @{message_id=8; from=; chat=; date=1764406712; text=[DC01][WARNING] AD Replication: No replication data}
+True @{message_id=9; from=; chat=; date=1764406796; text=[DC01][WARNING] AD Replication: No replication data}
+[2025-11-29 16:00:00.039] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:00:00.274] [DC01] [SUCCESS] Status Summary - CPU: 0%, Memory: 51.67%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:00:00.274] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:01:00.302] [DC01] [INFO] --- Monitoring Cycle #3 ---
+[2025-11-29 16:01:09.586] [DC01] [INFO] CPU: 0.01% (Queue Length: 2)
+[2025-11-29 16:01:09.586] [DC01] [INFO] Memory: 51.47% used (Free: 1987.64MB, Page Faults: 0/sec)
+[2025-11-29 16:01:09.586] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:01:09.599] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:01:09.599] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:01:26.085] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=10; from=; chat=; date=1764406886; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:01:30.661] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:01:30.897] [DC01] [SUCCESS] Status Summary - CPU: 0.01%, Memory: 51.47%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:01:30.897] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:02:30.912] [DC01] [INFO] --- Monitoring Cycle #4 ---
+[2025-11-29 16:02:40.300] [DC01] [INFO] CPU: 1.49% (Queue Length: 0)
+[2025-11-29 16:02:40.300] [DC01] [INFO] Memory: 50.77% used (Free: 2016.23MB, Page Faults: 30.6/sec)
+[2025-11-29 16:02:40.316] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:02:40.332] [DC01] [ERROR] SERVICE DOWN: DHCP Server [DHCPServer] - Status: Stopped
+True @{message_id=11; from=; chat=; date=1764406960; text=[DC01][ERROR] SERVICE DOWN: DHCP Server [DHCPSer...
+[2025-11-29 16:02:41.004] [DC01] [INFO] Attempting to restart DHCPServer...
+WARNING: Waiting for service 'DHCP Server (DHCPServer)' to start...
+WARNING: Waiting for service 'DHCP Server (DHCPServer)' to start...
+[2025-11-29 16:02:45.787] [DC01] [SUCCESS] Successfully restarted DHCPServer
+[2025-11-29 16:02:45.787] [DC01] [INFO] DHCP status: Error
+[2025-11-29 16:02:55.380] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=12; from=; chat=; date=1764406975; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:02:59.301] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:02:59.536] [DC01] [SUCCESS] Status Summary - CPU: 1.49%, Memory: 50.77%, Services: 7/8 running, Network: 0 MB/s
+[2025-11-29 16:02:59.549] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:03:59.550] [DC01] [INFO] --- Monitoring Cycle #5 ---
+[2025-11-29 16:04:09.004] [DC01] [INFO] CPU: 26.8% (Queue Length: 0)
+[2025-11-29 16:04:09.020] [DC01] [INFO] Memory: 52.7% used (Free: 1936.94MB, Page Faults: 3800.11/sec)
+[2025-11-29 16:04:09.020] [DC01] [INFO] Disk performance: Queue=0, Latency=0.45ms, DiskTime=0%
+[2025-11-29 16:04:09.034] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:04:09.034] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:04:18.519] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=13; from=; chat=; date=1764407058; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:04:23.207] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:04:23.521] [DC01] [SUCCESS] Status Summary - CPU: 26.8%, Memory: 52.7%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:04:23.521] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:05:23.519] [DC01] [INFO] --- Monitoring Cycle #6 ---
+[2025-11-29 16:05:32.987] [DC01] [INFO] CPU: 25.62% (Queue Length: 0)
+[2025-11-29 16:05:32.987] [DC01] [INFO] Memory: 51.83% used (Free: 1972.56MB, Page Faults: 7279.73/sec)
+[2025-11-29 16:05:33.002] [DC01] [INFO] Disk performance: Queue=0, Latency=3.71ms, DiskTime=0.05%
+[2025-11-29 16:05:33.002] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:05:33.002] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:05:42.440] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=14; from=; chat=; date=1764407142; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:05:46.878] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:05:47.159] [DC01] [SUCCESS] Status Summary - CPU: 25.62%, Memory: 51.83%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:05:47.174] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:06:47.174] [DC01] [INFO] --- Monitoring Cycle #7 ---
+[2025-11-29 16:06:56.455] [DC01] [INFO] CPU: 26.04% (Queue Length: 0)
+[2025-11-29 16:06:56.455] [DC01] [INFO] Memory: 50.98% used (Free: 2007.41MB, Page Faults: 13774.83/sec)
+[2025-11-29 16:06:56.455] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:06:56.473] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:06:56.473] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:07:12.846] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=15; from=; chat=; date=1764407232; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:07:17.175] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:07:17.459] [DC01] [SUCCESS] Status Summary - CPU: 26.04%, Memory: 50.98%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:07:17.459] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:08:17.472] [DC01] [INFO] --- Monitoring Cycle #8 ---
+[2025-11-29 16:08:27.081] [DC01] [INFO] CPU: 31.04% (Queue Length: 0)
+[2025-11-29 16:08:27.097] [DC01] [INFO] Memory: 50.71% used (Free: 2018.59MB, Page Faults: 17171.48/sec)
+[2025-11-29 16:08:27.097] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=5.3%
+[2025-11-29 16:08:27.097] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:08:27.097] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:08:43.662] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=16; from=; chat=; date=1764407323; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:08:48.178] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:08:48.568] [DC01] [SUCCESS] Status Summary - CPU: 31.04%, Memory: 50.71%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:08:48.582] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:09:48.597] [DC01] [INFO] --- Monitoring Cycle #9 ---
+[2025-11-29 16:09:57.972] [DC01] [INFO] CPU: 26.95% (Queue Length: 5)
+[2025-11-29 16:09:57.988] [DC01] [INFO] Memory: 51.54% used (Free: 1984.58MB, Page Faults: 8181.4/sec)
+[2025-11-29 16:09:57.988] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:09:57.988] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:09:58.004] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:10:07.490] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=17; from=; chat=; date=1764407407; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:10:11.503] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:10:11.628] [DC01] [CRITICAL] Account Lockout Detected - User: Administrator, Source: DC01
+True @{message_id=18; from=; chat=; date=1764407411; text=[DC01][CRITICAL] Account Lockout Detected - User...
+[2025-11-29 16:10:12.628] [DC01] [SUCCESS] Status Summary - CPU: 26.95%, Memory: 51.54%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:10:12.628] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:11:12.644] [DC01] [INFO] --- Monitoring Cycle #10 ---
+[2025-11-29 16:11:25.300] [DC01] [INFO] CPU: 22.86% (Queue Length: 0)
+[2025-11-29 16:11:26.535] [DC01] [INFO] Memory: 53.32% used (Free: 1911.93MB, Page Faults: 1670.86/sec)
+[2025-11-29 16:11:26.737] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:11:28.300] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:11:29.613] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:11:47.191] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=19; from=; chat=; date=1764407508; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:11:56.722] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:11:58.628] [DC01] [SUCCESS] Status Summary - CPU: 22.86%, Memory: 53.32%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:11:59.832] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:13:01.035] [DC01] [INFO] --- Monitoring Cycle #11 ---
+[2025-11-29 16:13:16.394] [DC01] [WARNING] HIGH CPU USAGE: 100% (Queue Length: 5)
+True @{message_id=20; from=; chat=; date=1764407597; text=[DC01][WARNING] HIGH CPU USAGE: 100% (Queue Leng...
+[2025-11-29 16:13:31.441] [DC01] [INFO] Memory: 53.06% used (Free: 1922.25MB, Page Faults: 0/sec)
+[2025-11-29 16:13:32.582] [DC01] [INFO] Disk performance: Queue=0.02, Latency=0.32ms, DiskTime=0%
+[2025-11-29 16:13:33.847] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:13:35.238] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:13:47.222] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=21; from=; chat=; date=1764407628; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:14:12.973] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:14:14.958] [DC01] [SUCCESS] Status Summary - CPU: 100%, Memory: 53.06%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:14:16.784] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:15:18.254] [DC01] [INFO] --- Monitoring Cycle #12 ---
+[2025-11-29 16:15:33.644] [DC01] [WARNING] HIGH CPU USAGE: 100% (Queue Length: 5)
+True @{message_id=22; from=; chat=; date=1764407735; text=[DC01][WARNING] HIGH CPU USAGE: 100% (Queue Leng...
+[2025-11-29 16:15:46.332] [DC01] [INFO] Memory: 52.22% used (Free: 1956.91MB, Page Faults: 101.95/sec)
+[2025-11-29 16:15:46.332] [DC01] [INFO] Disk performance: Queue=0.02, Latency=3.54ms, DiskTime=0.1%
+[2025-11-29 16:15:46.362] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:15:46.362] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:16:02.912] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=23; from=; chat=; date=1764407763; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:16:06.910] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:16:07.159] [DC01] [INFO] DCDIAG: OK
+[2025-11-29 16:16:07.396] [DC01] [SUCCESS] Status Summary - CPU: 100%, Memory: 52.22%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:16:07.396] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:17:07.397] [DC01] [INFO] --- Monitoring Cycle #13 ---
+[2025-11-29 16:17:16.707] [DC01] [INFO] CPU: 0% (Queue Length: 0)
+[2025-11-29 16:17:16.707] [DC01] [INFO] Memory: 50.11% used (Free: 2043.14MB, Page Faults: 0/sec)
+[2025-11-29 16:17:16.707] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:17:16.707] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:17:16.722] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:17:26.209] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=24; from=; chat=; date=1764407846; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:17:30.659] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:17:30.882] [DC01] [SUCCESS] Status Summary - CPU: 0%, Memory: 50.11%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:17:30.895] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:18:30.896] [DC01] [INFO] --- Monitoring Cycle #14 ---
+[2025-11-29 16:18:40.175] [DC01] [INFO] CPU: 3.4% (Queue Length: 0)
+[2025-11-29 16:18:40.191] [DC01] [INFO] Memory: 49.76% used (Free: 2057.38MB, Page Faults: 0/sec)
+[2025-11-29 16:18:40.191] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0.06%
+[2025-11-29 16:18:40.191] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:18:40.207] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:18:49.598] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=25; from=; chat=; date=1764407929; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:18:54.630] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:18:54.942] [DC01] [SUCCESS] Status Summary - CPU: 3.4%, Memory: 49.76%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:18:55.103] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:19:55.320] [DC01] [INFO] --- Monitoring Cycle #15 ---
+[2025-11-29 16:20:04.599] [DC01] [INFO] CPU: 29.72% (Queue Length: 0)
+[2025-11-29 16:20:04.599] [DC01] [INFO] Memory: 45.72% used (Free: 2223.17MB, Page Faults: 106.57/sec)
+[2025-11-29 16:20:04.599] [DC01] [INFO] Disk performance: Queue=0, Latency=0.41ms, DiskTime=0%
+[2025-11-29 16:20:04.599] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:20:04.616] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:20:14.098] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=26; from=; chat=; date=1764408014; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:20:18.067] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:20:18.334] [DC01] [SUCCESS] Status Summary - CPU: 29.72%, Memory: 45.72%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:20:18.349] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:21:18.350] [DC01] [INFO] --- Monitoring Cycle #16 ---
+[2025-11-29 16:21:27.647] [DC01] [INFO] CPU: 0.27% (Queue Length: 0)
+[2025-11-29 16:21:27.661] [DC01] [INFO] Memory: 45.05% used (Free: 2250.55MB, Page Faults: 0/sec)
+[2025-11-29 16:21:27.661] [DC01] [INFO] Disk performance: Queue=0.02, Latency=0.55ms, DiskTime=38.42%
+[2025-11-29 16:21:27.661] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:21:27.661] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:21:44.333] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=27; from=; chat=; date=1764408104; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:21:49.161] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:21:49.397] [DC01] [SUCCESS] Status Summary - CPU: 0.27%, Memory: 45.05%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:21:49.412] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:22:49.414] [DC01] [INFO] --- Monitoring Cycle #17 ---
+[2025-11-29 16:22:59.114] [DC01] [INFO] CPU: 30.91% (Queue Length: 0)
+[2025-11-29 16:22:59.114] [DC01] [INFO] Memory: 47.74% used (Free: 2140.39MB, Page Faults: 161.2/sec)
+[2025-11-29 16:22:59.114] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:22:59.132] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:22:59.132] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:23:22.490] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=28; from=; chat=; date=1764408202; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:23:26.897] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:23:27.177] [DC01] [SUCCESS] Status Summary - CPU: 30.91%, Memory: 47.74%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:23:27.193] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:24:27.211] [DC01] [INFO] --- Monitoring Cycle #18 ---
+[2025-11-29 16:24:36.538] [DC01] [INFO] CPU: 0% (Queue Length: 0)
+[2025-11-29 16:24:36.555] [DC01] [INFO] Memory: 47.4% used (Free: 2154.28MB, Page Faults: 0.99/sec)
+[2025-11-29 16:24:36.555] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:24:36.555] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:24:36.571] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:24:46.255] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=29; from=; chat=; date=1764408286; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:24:51.020] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:24:51.302] [DC01] [SUCCESS] Status Summary - CPU: 0%, Memory: 47.4%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:24:51.320] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:25:51.334] [DC01] [INFO] --- Monitoring Cycle #19 ---
+[2025-11-29 16:26:00.600] [DC01] [INFO] CPU: 0.13% (Queue Length: 0)
+[2025-11-29 16:26:00.600] [DC01] [INFO] Memory: 46.72% used (Free: 2181.89MB, Page Faults: 0/sec)
+[2025-11-29 16:26:00.614] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=1.72%
+[2025-11-29 16:26:00.614] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:26:00.630] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:26:10.053] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=30; from=; chat=; date=1764408370; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:26:14.505] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:26:14.758] [DC01] [SUCCESS] Status Summary - CPU: 0.13%, Memory: 46.72%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:26:14.758] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:27:14.771] [DC01] [INFO] --- Monitoring Cycle #20 ---
+[2025-11-29 16:27:24.067] [DC01] [INFO] CPU: 0.93% (Queue Length: 0)
+[2025-11-29 16:27:24.067] [DC01] [INFO] Memory: 48.05% used (Free: 2127.42MB, Page Faults: 1.96/sec)
+[2025-11-29 16:27:24.067] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0%
+[2025-11-29 16:27:24.083] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:27:24.083] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:27:33.881] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=31; from=; chat=; date=1764408453; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:27:37.976] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:27:38.195] [DC01] [SUCCESS] Status Summary - CPU: 0.93%, Memory: 48.05%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:27:38.210] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:28:38.211] [DC01] [INFO] --- Monitoring Cycle #21 ---
+[2025-11-29 16:28:47.508] [DC01] [INFO] CPU: 0.02% (Queue Length: 0)
+[2025-11-29 16:28:47.524] [DC01] [INFO] Memory: 47.15% used (Free: 2164.44MB, Page Faults: 1/sec)
+[2025-11-29 16:28:47.524] [DC01] [INFO] Disk performance: Queue=0, Latency=0ms, DiskTime=0.08%
+[2025-11-29 16:28:47.536] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:28:47.536] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:28:57.255] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=32; from=; chat=; date=1764408537; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:29:02.161] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:29:02.396] [DC01] [SUCCESS] Status Summary - CPU: 0.02%, Memory: 47.15%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:29:02.396] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:30:02.414] [DC01] [INFO] --- Monitoring Cycle #22 ---
+[2025-11-29 16:30:11.693] [DC01] [INFO] CPU: 9.29% (Queue Length: 0)
+[2025-11-29 16:30:11.693] [DC01] [INFO] Memory: 49.6% used (Free: 2064.03MB, Page Faults: 789.29/sec)
+[2025-11-29 16:30:11.693] [DC01] [INFO] Disk performance: Queue=0.05, Latency=0.74ms, DiskTime=4.35%
+[2025-11-29 16:30:11.708] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:30:11.708] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:30:28.411] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=33; from=; chat=; date=1764408628; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:30:32.474] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:30:32.802] [DC01] [SUCCESS] Status Summary - CPU: 9.29%, Memory: 49.6%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:30:32.817] [DC01] [INFO] Waiting 60 seconds until next check...
+[2025-11-29 16:31:32.817] [DC01] [INFO] --- Monitoring Cycle #23 ---
+[2025-11-29 16:31:42.052] [DC01] [INFO] CPU: 5.5% (Queue Length: 0)
+[2025-11-29 16:31:42.052] [DC01] [INFO] Memory: 48.72% used (Free: 2100.19MB, Page Faults: 4.02/sec)
+[2025-11-29 16:31:42.052] [DC01] [INFO] Disk performance: Queue=0.02, Latency=2.59ms, DiskTime=1.63%
+[2025-11-29 16:31:42.068] [DC01] [INFO] All critical services are running.
+[2025-11-29 16:31:42.068] [DC01] [INFO] DHCP: 2/51 addresses in use (3.92% )
+[2025-11-29 16:31:58.724] [DC01] [WARNING] AD Replication: No replication data
+True @{message_id=34; from=; chat=; date=1764408718; text=[DC01][WARNING] AD Replication: No replication d...
+[2025-11-29 16:32:02.758] [DC01] [INFO] Connectivity OK (Gateway: 192.168.139.2)
+[2025-11-29 16:32:02.993] [DC01] [SUCCESS] Status Summary - CPU: 5.5%, Memory: 48.72%, Services: 8/8 running, Network: 0 MB/s
+[2025-11-29 16:32:03.007] [DC01] [INFO] Waiting 60 seconds until next check...

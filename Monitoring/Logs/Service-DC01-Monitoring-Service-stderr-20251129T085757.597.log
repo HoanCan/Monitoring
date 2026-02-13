@@ -1,0 +1,72 @@
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 
+ConvertTo-SecureString : The system cannot find the path specified.
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:159 char:18
++     $secure    = ConvertTo-SecureString $encrypted
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ConvertTo-SecureString], CryptographicException
+    + FullyQualifiedErrorId : ImportSecureString_InvalidArgument_CryptographicError,Microsoft.PowerShell.Commands.Conv 
+   ertToSecureStringCommand
+ 

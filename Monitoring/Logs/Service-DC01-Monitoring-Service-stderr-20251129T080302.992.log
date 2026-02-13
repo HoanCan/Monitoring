@@ -1,0 +1,8 @@
+At C:\Monitoring\Scripts\Server\Monitor-DC01-Service.ps1:447 char:54
++ ...        Write-MonitorLog "Error checking service $ServiceName: $($_.Ex ...
++                                                     ~~~~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to 
+delimit the name.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidVariableReferenceWithDrive
+ 
